@@ -13,9 +13,9 @@ A collection of `Set` types for Golang. They wrap `map`.
 
 1. Clone the repo into the "src" dir in your go workspace:
 
-    cd $(go env GOPATH)/src
-    git clone git@github.com:aschmied/set.git
-    go install github.com/aschmied/set
+        cd $(go env GOPATH)/src
+        git clone git@github.com:aschmied/set.git
+        go install github.com/aschmied/set
 
 ## Tests
 
