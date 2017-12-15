@@ -1,10 +1,11 @@
-## Sets
+## Set
 
 A collection of `Set` types for Golang. They wrap `map`.
 
 ## Example Code
 
-    s := NewStringSet()
+    import "github.com/aschmied/set"
+    s := set.Strings()
     s.Add("foo")
     s.Contains("foo") // true
 
@@ -13,12 +14,12 @@ A collection of `Set` types for Golang. They wrap `map`.
 1. Clone the repo into the "src" dir in your go workspace:
 
     cd $(go env GOPATH)/src
-    git clone git@github.com:aschmied/sets.git
-    go install github.com/aschmied/sets
+    git clone git@github.com:aschmied/set.git
+    go install github.com/aschmied/set
 
 ## Tests
 
-    go test github.com/aschmied/sets
+    go test github.com/aschmied/set
 
 ## License: 2-clause BSD
 

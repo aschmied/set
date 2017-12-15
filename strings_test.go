@@ -1,16 +1,16 @@
-package sets
+package set
 
 import "testing"
 
 func TestEmptyString(t *testing.T) {
-    s := NewStringSet()
+    s := Strings()
     assertSize(t, s, 0)
     s.Add("")
     assertSize(t, s, 1)
 }
 
 func TestNonEmptyStrings(t *testing.T) {
-    s := NewStringSet()
+    s := Strings()
     s.Add("foo")
     assertSize(t, s, 1)
     s.Add("bar")

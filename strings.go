@@ -1,10 +1,10 @@
-package sets
+package set
 
 type stringSet struct {
     values map[string]bool
 }
 
-func NewStringSet() stringSet {
+func Strings() stringSet {
     return stringSet{make(map[string]bool)}
 }
 
